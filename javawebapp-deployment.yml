@@ -1,6 +1,6 @@
 ---
-apiVersion: apps/v1
-kind: ReplicationController
+apiVersion: extensions/v1beta1
+kind: Deployment 
 metadata:
   labels:
     name: spring-boot-mongo
