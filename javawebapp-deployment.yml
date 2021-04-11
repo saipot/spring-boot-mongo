@@ -4,7 +4,7 @@ kind: ReplicationController
 metadata:
   labels:
     name: spring-boot-mongo
-  name: java-controller
+  name:  spring-boot-mongo
 spec:
   replicas: 1
   template:
